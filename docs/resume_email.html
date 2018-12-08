@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Outlook render at correct size. -->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->    
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+<meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->    
+<title>Simon Resume email demo</title>
+<meta name="viewport" content="width=device-width" />
+    
+    <style>
+	
+		/**reset body margin and padding to zero**/
+		html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+		
+		/* Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+	    .button-td-primary:hover,
+	    .button-a-primary:hover {
+	        background: #555555 !important;
+	        border-color: #555555 !important;
+	    }
+	
+		
+		/** important style code to fix email client**/
+		
+		/* What is does: Centers email on Android 4.4 */
+		div[style*="margin: 16px 0"] {
+			margin: 0 !important;
+		}
+		/* What it does: Stops Outlook from adding extra spacing to tables. */
+		table, td {
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+		}
+		/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+		table {
+			border-spacing: 0 !important;
+			border-collapse: collapse !important;
+			table-layout: fixed !important;
+			margin: 0 auto !important;
+		}
+		table table table {
+			table-layout: auto;
+		}
+		/* What it does: Uses a better rendering method when resizing images in IE. */
+		img {
+			-ms-interpolation-mode: bicubic;
+		}
+		/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+		.yshortcuts a {
+			border-bottom: none !important;
+		}
+		
+		/* Stops email clients resizing small text. */
+		* {
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+		
+		/* fix apple ios */
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+		}
+		/** important style code to fix email client**/
+		
+		
+		
+         @media screen and (max-width: 600px) {
+            /* make table 100 percentage */
+            .width-full {
+                width: 100% !important;
+            }
+            /* image center and 100% */
+            .image-center {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+            } 
+        }
+        
+        @media screen and (min-width: 321px) and (max-width: 400px) {
+            /* resize the heading size */
+            .email-title {
+                font-size: 42px !important;
+                line-height: !important;
+            }
+        
+    </style>
+    
+    
+    
+    
+    
+    
+    
+<!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+<!--[if mso]>
+    <style>
+        * {
+            font-family: sans-serif !important;
+        }
+    </style>
+<![endif]-->
+    
+</head>
+<!-- reset margin and padding to 0 in body -->    
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #00469C">
+
+<!-- table container start -->    
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#00469C">
+    <tr>
+        <td>
+        <!-- table container start -->   
+        
+            
+            
+           <!-- table wrapper start -->    
+            <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#FFFFFF">
+                <!-- content 1 --> 
+                <tr>
+                    <td>    
+                        <!-- table wrapper start -->    
+                        <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center">
+                            <tr>
+                                <td align="center">
+                                <!-- table wrapper start -->    
+                                    <a href="https://simonngo123.github.io/" target="_blank"><img src="../images/Logo.png" width="300" alt="logo" style="display: block; max-width: 100%;" class="image-center"/></a>
+
+                                <!-- table wrapper end -->      
+                                </td>
+                            </tr>
+                        </table>  
+                        <!-- table wrapper end -->     
+                    </td>
+                </tr>
+                <!-- content 1 --> 
+                <!-- content 2 --> 
+                <tr>
+                    <td>    
+                        <!-- table wrapper start -->    
+                        <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center">
+                            <tr>
+                                <td align="center">
+                                <!-- table wrapper start -->    
+                                    <a href="https://simonngo123.github.io/" target="_blank"><img src="../images/avataaars.png" width="300" alt="logo" style="display: block; max-width: 100%;"/></a>
+
+                                <!-- table wrapper end -->      
+                                </td>
+                            </tr>
+                        </table>  
+                        <!-- table wrapper end -->     
+                    </td>
+                </tr>
+                <!-- content 2 -->
+                <!-- spacer --> 
+                <tr>
+                    <td height="10">    
+                        <!-- table wrapper start -->    
+                        <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff">
+                            <tr>
+                                <td>
+                                <!-- table wrapper start -->    
+                                    &nbsp;
+
+                                <!-- table wrapper end -->      
+                                </td>
+                            </tr>
+                        </table>  
+                        <!-- table wrapper end -->     
+                    </td>
+                </tr>
+                <!-- spacer -->
+                <!-- content 3 --> 
+                <tr>
+                    <td>    
+                        <!-- table wrapper start -->    
+                        <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center">
+                            <tr>
+                                <td align="center" style="font-family: Arail, sans-serif; font-size: 64px; color: #929292;" class="email-title">
+                                <!-- table wrapper start -->    
+                                    <strong>SIMON NGO</strong>
+
+                                <!-- table wrapper end -->      
+                                </td>
+                            </tr>
+                        </table>  
+                        <!-- table wrapper end -->     
+                    </td>
+                </tr>
+                <!-- content 3 -->
+                <!-- content 3 --> 
+                <tr>
+                    <td>    
+                        <!-- table wrapper start -->    
+                        <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#929292">
+                            <tr>
+                                <td align="center" style="font-family: Arail, sans-serif; font-size: 26px; color: #ffffff" height="60">
+                                <!-- table wrapper start -->    
+                                    <strong>A Hybrid Digital Marketeer</strong>
+
+                                <!-- table wrapper end -->      
+                                </td>
+                            </tr>
+                        </table>  
+                        <!-- table wrapper end -->     
+                    </td>
+                </tr>
+                <!-- content 3 -->
+                <!-- spacer --> 
+                <tr>
+                    <td height="10">    
+                        <!-- table wrapper start -->    
+                        <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff">
+                            <tr>
+                                <td>
+                                <!-- table wrapper start -->    
+                                    &nbsp;
+
+                                <!-- table wrapper end -->      
+                                </td>
+                            </tr>
+                        </table>  
+                        <!-- table wrapper end -->     
+                    </td>
+                </tr>
+                <!-- spacer -->
+                <!-- content 3 --> 
+                <tr>
+                    <td>    
+                        <!-- table wrapper start -->    
+                        <table class="width-full" border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff">
+                            <tr>
+                                <td align="center" style="font-family: Arail, sans-serif; font-size: 18px; color: #000000; text-align: left; padding: 10px 15px;">
+                                <!-- table wrapper start -->    
+                                     <strong>Hybrid Digital Marketeer</strong> with a unique blend of <strong>digital coding</strong>, <strong>business</strong> and <strong>art &amp; design skill sets</strong>.<br><br> A solid <strong>3 and a half years’ plus experience in Email and Digital marketing</strong>.<br><br>
+
+                                    Eager to work with an ambitious company that can utilise both my creative problem solving to think outside the box and analytical skills to problem solve.
+
+                                <!-- table wrapper end -->      
+                                </td>
+                            </tr>
+                        </table>  
+                        <!-- table wrapper end -->     
+                    </td>
+                </tr>
+                <!-- content 3 -->
+                <!-- content 4 --> 
+                <tr>
+                    <td>    
+                        <!--button and spacer -->            
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="width-full">
+                            <!--spacer -->
+                            <tr>
+                                <td>
+                                    <!--content 3 -->
+                                    <table align="center" width="236" class="width-full">
+                                        <tr>
+                                            <td height="5">&nbsp;
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!--spacer -->
+                            <tr>
+                                <td align="center">
+                                    <!--button start-->    
+                                    <div><!--[if mso]>
+                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://simonngo123.github.io/" target="_blank" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" strokecolor="#1e3650" fillcolor="#929292">
+                                    <w:anchorlock/>
+                                    <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:20px;font-weight:bold; text-transform: uppercase;">Buy Tickets</center>
+                                    </v:roundrect>
+                                    <![endif]--><a href="https://simonngo123.github.io/" target="_blank"
+                                    style="background-color:#929292;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family:Arial,sans-serif;font-size:20px;font-weight:bold;text-transform: uppercase;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">Find Out More</a>
+                                    </div>
+                                    <!--button end--> 
+                                </td>
+                            </tr>
+                            <!--spacer -->
+                            <tr>
+                                <td>
+                                    <!--content 3 -->
+                                    <table align="center" width="236" class="width-full">
+                                        <tr>
+                                            <td height="70">&nbsp;
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!--spacer -->
+                        </table>  
+                        <!--button and spacer -->     
+                    </td>
+                </tr>
+                <!-- content 4 -->
+                
+            </table>  
+            <!-- table wrapper end -->   
+            
+            
+            
+        <!-- table container end -->       
+        </td>
+    </tr>
+</table>  
+<!-- table container end -->       
+    
+</body>
+</html>
