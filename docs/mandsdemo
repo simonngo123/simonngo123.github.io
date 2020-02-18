@@ -145,7 +145,7 @@
         <table border="0" cellspacing="0" cellpadding="0" width="200" align="center" role="presentation" class="fluid">
             <tr>
                 <td align="center">
-                <a href="https://www.marksandspencer.com" target="_blank"><img src="images/logo.jpg" alt="M&S EST. 1884 logo" width="185" height="auto" style="max-width: 185px !important; border: 0; display: block;" class="img-fluid"></a>
+                <a href="https://www.marksandspencer.com" target="_blank"><img src="../images/logo.jpg" alt="M&S EST. 1884 logo" width="185" height="auto" style="max-width: 185px !important; border: 0; display: block;" class="img-fluid"></a>
                 </td>
             </tr>
         </table>
@@ -174,7 +174,7 @@
                     <!-- HEADLINE START --> 
                     <!-- IMG START -->
                     <tr>
-                        <td align="center"><a href="https://www.marksandspencer.com/fillet-of-beef/p/p21053655" target="_blank"><img src="images/image1.jpeg" alt="Fillet of Beef" width="600" height="auto" style="border: 0; display: block;" class="img-fluid"></a></td>
+                        <td align="center"><a href="https://www.marksandspencer.com/fillet-of-beef/p/p21053655" target="_blank"><img src="../images/image1.jpeg" alt="Fillet of Beef" width="600" height="auto" style="border: 0; display: block;" class="img-fluid"></a></td>
                     </tr>
                     <!-- IMG END -->
                     <!-- TEXT START -->
@@ -286,7 +286,7 @@
                         <!-- IMG START -->
                         <tr>
                             <td align="center" style="padding-top: 20px;">
-                                <a href="https://www.marksandspencer.com/classic-selection-30-sandwich-quarters-/p/p21105185" target="_blank"><img src="images/sandwich2.jpg" alt="Classic Sandwich Selection" width="290" height="auto" style="max-width: 290px !important; border: 0; display: block;" class="img-fluid"></a>
+                                <a href="https://www.marksandspencer.com/classic-selection-30-sandwich-quarters-/p/p21105185" target="_blank"><img src="../images/sandwich2.jpg" alt="Classic Sandwich Selection" width="290" height="auto" style="max-width: 290px !important; border: 0; display: block;" class="img-fluid"></a>
                             </td>
                         </tr>
                         <!-- IMG END -->
@@ -327,7 +327,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" role="presentation">
                         <!-- IMG START -->
                         <tr>
-                            <td align="center" style="padding-top: 20px;"><a href="https://www.marksandspencer.com/c/food-to-order/wedding-cakes#intid=FoodDLP_HeroRHNavcomponentitself_060120_1_wedding%20cakes" target="_blank"><img src="images/wedding.jpg" class="img-fluid" width="290" style="max-width:290px!important;border: 0; display: block;" alt="Wedding Cakes" height="auto"></a></td>
+                            <td align="center" style="padding-top: 20px;"><a href="https://www.marksandspencer.com/c/food-to-order/wedding-cakes#intid=FoodDLP_HeroRHNavcomponentitself_060120_1_wedding%20cakes" target="_blank"><img src="../images/wedding.jpg" class="img-fluid" width="290" style="max-width:290px!important;border: 0; display: block;" alt="Wedding Cakes" height="auto"></a></td>
                         </tr>
                         <!-- IMG END -->
                         <!-- TEXT START -->
@@ -400,7 +400,7 @@
                         <!-- IMG START -->
                         <tr>
                             <td align="center" style="padding-top: 20px;">
-                                <a href="https://www.marksandspencer.com/l/food-to-order/party-food-and-sandwiches#intid=FoodDLP_4-trade-tiles_060120_5_txt_party%20food%20and%20sandwiches" target="_blank"><img src="images/platter.jpg" alt="party food image" width="290" height="auto" style="max-width: 290px !important; border: 0; display: block;" class="img-fluid"></a>
+                                <a href="https://www.marksandspencer.com/l/food-to-order/party-food-and-sandwiches#intid=FoodDLP_4-trade-tiles_060120_5_txt_party%20food%20and%20sandwiches" target="_blank"><img src="../images/platter.jpg" alt="party food image" width="290" height="auto" style="max-width: 290px !important; border: 0; display: block;" class="img-fluid"></a>
                             </td>
                         </tr>
                         <!-- IMG END -->
@@ -436,7 +436,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" role="presentation" class="mbm_col_underline">
                         <!-- IMG START -->
                         <tr>
-                            <td align="center" style="padding-top: 20px;"><a href="https://www.marksandspencer.com/l/food-to-order/dining/main-courses#intid=FoodDLP_4-trade-tiles_060120_5_img_main%20courses" target="_blank"><img src="images/main.jpg" class="img-fluid" width="290" style="max-width:290px!important;border: 0; display: block;" alt="main food image" height="auto"></a></td>
+                            <td align="center" style="padding-top: 20px;"><a href="https://www.marksandspencer.com/l/food-to-order/dining/main-courses#intid=FoodDLP_4-trade-tiles_060120_5_img_main%20courses" target="_blank"><img src="../images/main.jpg" class="img-fluid" width="290" style="max-width:290px!important;border: 0; display: block;" alt="main food image" height="auto"></a></td>
                         </tr>
                         <!-- IMG END -->
                         <!-- TEXT START -->
@@ -512,25 +512,25 @@
                         <table border="0" cellspacing="0" cellpadding="0" width="120" align="center" role="presentation" class="mbm_social">
                             <tr>
                                 <td>
-                                    <a href="https://www.facebook.com/MarksandSpencer" target="_blank"><img src="images/facebook.png" alt="facebook" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
+                                    <a href="https://www.facebook.com/MarksandSpencer" target="_blank"><img src="../images/facebook.png" alt="facebook" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
                                 </td>
                                 <!-- width padding start -->
                                 <td style="width:5px;" width="5">&nbsp;</td>
                                 <!-- width padding end -->	
                                 <td>
-                                    <a href="https://twitter.com/marksandspencer" target="_blank"><img src="images/twitter.png" alt="twitter" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
+                                    <a href="https://twitter.com/marksandspencer" target="_blank"><img src="../images/twitter.png" alt="twitter" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
                                 </td>
                                 <!-- width padding start -->
                                 <td style="width:5px;" width="5">&nbsp;</td>
                                 <!-- width padding end -->	   
                                 <td>
-                                    <a href="https://www.youtube.com/user/marksandspencertv?sub_confirmation=1" target="_blank"><img src="images/youtube.png" alt="facebook" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
+                                    <a href="https://www.youtube.com/user/marksandspencertv?sub_confirmation=1" target="_blank"><img src="../images/youtube.png" alt="facebook" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
                                 </td>
                                 <!-- width padding start -->
                                 <td style="width:5px;" width="5">&nbsp;</td>
                                 <!-- width padding end -->	
                                 <td>
-                                    <a href="https://www.instagram.com/marksandspencer/" target="_blank"><img src="images/instagram.png" alt="instagram" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
+                                    <a href="https://www.instagram.com/marksandspencer/" target="_blank"><img src="../images/instagram.png" alt="instagram" width="25" height="25" style="display:block; border: 0;" class="mbm_social_icons"></a>
                                 </td>
                                 <!-- width padding start -->
                                 <td style="width:5px;" width="5">&nbsp;</td>
@@ -588,7 +588,7 @@
                         <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" role="presentation">
                             <tr>
                                 <td valign="middle" align="center">
-                                    <a href="https://www.marksandspencer.com/" target="_blank"><img src="images/smalllogo.jpg" alt="M&S" height="15" style="height:15px; display: block; border:0; padding: 0; margin: 0;" class="image-reset"/></a>
+                                    <a href="https://www.marksandspencer.com/" target="_blank"><img src="../images/smalllogo.jpg" alt="M&S" height="15" style="height:15px; display: block; border:0; padding: 0; margin: 0;" class="image-reset"/></a>
                                 </td>
                             </tr>
                         </table>            
