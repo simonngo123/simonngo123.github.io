@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- commnet can be removed in this email -->
+<!--best doctype to use for html email doctype xhtml 1.0-->
+
+<!-- use to reset outlook pixel bug -->
+
+ <!-- NAME: 1:3 COLUMN -->
+        <!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+ <![endif]-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+<!--Content type meta tag support for all Unicode characters-->	
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+<!--help fix viewport issue in email client-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif]-->
+
+<!--title tag use for browser can be rm if needed-->
+<title>A simple 1 column email with CTA button demo 1</title>
+	
+	<style>
+	/**reset and resposive style here**/
+		
+		/**reset body margin and padding to zero**/
+		html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+		
+		/* Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+	    .button-td-primary:hover,
+	    .button-a-primary:hover {
+	        background: #555555 !important;
+	        border-color: #555555 !important;
+	    }
+	
+		
+		/** important style code to fix email client**/
+		
+		/* What is does: Centers email on Android 4.4 */
+		div[style*="margin: 16px 0"] {
+			margin: 0 !important;
+		}
+		/* What it does: Stops Outlook from adding extra spacing to tables. */
+		table, td {
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+		}
+		/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+		table {
+			border-spacing: 0 !important;
+			border-collapse: collapse !important;
+			table-layout: fixed !important;
+			margin: 0 auto !important;
+		}
+		table table table {
+			table-layout: auto;
+		}
+		/* What it does: Uses a better rendering method when resizing images in IE. */
+		img {
+			-ms-interpolation-mode: bicubic;
+		}
+		/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+		.yshortcuts a {
+			border-bottom: none !important;
+		}
+		
+		/* Stops email clients resizing small text. */
+		* {
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+		
+		/* fix apple ios */
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+		}
+		/** important style code to fix email client**/
+		
+		/* Media Queries for mobile */
+		@media only screen and (max-width: 600px) {
+			/* table full width*/
+			.email-container {
+                width: 100% !important;
+                margin: auto !important;
+            }
+			img.fluid {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+		}
+		
+		/* Column Drop Layout Pattern CSS */
+        @media only screen and (max-width: 540px) {
+            td.column {
+                display: block;
+                width: 100%;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+			
+        }
+		
+		/**need to add more reset style here here**/
+		
+		
+		
+		
+	/**reset and resposive style here**/	
+	</style>	
+	
+	
+
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+	table {border-collapse: collapse;}
+</style>
+<![endif]-->	
+	
+
+	
+</head>
+
+<!--body margin and padding set to zero-->	
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #e0e0e0;">
+	
+	<!-- Visually Hidden Preheader Text : BEGIN -->
+	<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+		(Optional) This text will appear in the inbox preview, but not the email body. It can be used to supplement the email subject line or even summarize the email's contents. Extended text preheaders (~490 characters) seems like a better UX for anyone using a screenreader or voice-command apps like Siri to dictate the contents of an email. If this text is not included, email clients will automatically populate it using the text (including image alt text) at the start of the email's body.
+	</div>
+	<!-- Visually Hidden Preheader Text : END -->
+	
+	<!--table wrapper start-->
+	<table class="email-container" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" bgcolor="#FFFFFF" style="font-family:Arial, Helvetica, sans-serif">
+		<tr>
+			<td>
+			<!--table wrapper start-->
+				<!--main table container start-->
+				<table class="email-container" cellpadding="0" cellspacing="0" border="0" width="600" align="center" bgcolor="#FFFFFF" style="font-family:Arial, Helvetica, sans-serif">
+				<!--main table container start-->
+					
+					
+					<!--header content logo-->
+					<tr>
+						<td>
+							<!--table base--->
+							<table class="email-container" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr>
+									<td align="center" height="30">
+									<!--logo image-->  
+									<a href="#" target="_blank" style="color: #000000; font-family:Arial, Helvetica, sans-serif; font-size: 14px;">View email in browser</a>
+							        <!--logo image-->    
+									</td>
+									<td align="center" height="30">
+									<!--logo image-->  
+									<a href="#" target="_blank" style="color: #000000; font-family:Arial, Helvetica, sans-serif; font-size: 14px;">Unsubsribe</a>
+							        <!--logo image-->    
+									</td>
+								</tr>
+							</table>
+							<!--table base--->			
+						</td>
+					</tr>
+					<!--header content logo-->
+					<!--header content logo-->
+					<tr>
+						<td>
+							<!--table base--->
+							<table class="email-container" width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr>
+									<td align="center">
+									<!--logo image-->  
+									<a href="#" target="_blank"><img src="http://via.placeholder.com/600x100/cfe1cf/FFFFFF/?text=YOUR+LOGO" width="600" height="100" alt="alt text" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="g-img"></a>
+							        <!--logo image-->    
+									</td>
+								</tr>
+							</table>
+							<!--table base--->			
+						</td>
+					</tr>
+					<!--header content logo-->
+					
+					<!-- 1 top and 2 column drop -->
+					<tr>
+						<td>
+							<table cellpadding="0" cellspacing="0" class="email-container" width="600">
+								<!--top column --> 
+								<tr>
+									<td class="column"  colspan="2" align="left" valign="top" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; line-height: 18px; color: #000001;" bgcolor="#7299d0">
+									<a href="#" target="_blank"><img src="https://via.placeholder.com/600x300/7299d0/FFFFFF?text=SPECIAL+OFFER" width="600" height="" alt="HEADER IMAGE" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="g-img"></a>
+									</td>
+								</tr>
+								<!--top column --> 
+								<!--drop column --> 
+								<tr>
+									<!--column 1 --> 
+									<td class="column"  align="left" valign="top" style=" font-size: 14px; font-family: Arial, Helvetica, sans-serif; line-height: 18px; color: #ffffff;" bgcolor="#ff0000">
+									<a href="#" target="_blank"><img src="http://via.placeholder.com/300x150/ff0000/FFFFFF?text=MEN+SALE" width="300" height="150" alt="Men Sale" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="fluid"></a>
+									</td>
+									<!--column 1 --> 
+									<!--column 2 --> 
+									<td class="column"  align="left" valign="top" style=" font-size: 14px; font-family: Arial, Helvetica, sans-serif; line-height: 18px; color: #ffffff;" bgcolor="#ff748c">
+									<a href="#" target="_blank"><img src="http://via.placeholder.com/300x150/ff748c/ffffff?text=WOMEN+SALE" width="300" height="150" alt="Womne Sale" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="fluid"></a>
+									</td>
+									<!--column 2 --> 
+								</tr>
+								<!--drop column --> 
+							</table>
+						</td>
+					</tr> 
+					<!-- 1 top and 2 column drop -->
+					
+					<!--header content header image-->
+					<tr>
+						<td>
+							<!--table base--->
+							<table class="email-container" width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr>
+									<!--header image-->  
+									<td align="center" bgcolor="#a0b2d8">
+									<a href="#" target="_blank"><img src="http://via.placeholder.com/600x300/a0b2d8/ffffff/?text=LASTEST+OFFER" width="600" height="" alt="LASTEST OFFER" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="g-img"></a>
+						   			</td>
+									<!--header image--> 
+								</tr>
+							</table>
+							<!--table base--->				
+						</td>
+					</tr>
+					<!--header content header image-->
+					
+					<!--text content with a button-->
+					<tr>
+						<td align="center">
+							<!--table for text--->
+							<table class="email-container" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="text-align: left">
+								<tr>
+									<td align="center" style="padding: 20px; text-align: left; font-size: 18px; font-family: Arial, Helvetica, sans-serif">	
+									<!--text content here--->
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Vestibulum porta sagittis ipsum, vitae suscipit ligula adipiscing ut.
+									Nunc ac velit auctor, facilisis nibh et, hendrerit neque.<br><br>
+									
+									
+									<!--text content here--->  
+									</td>
+								</tr>
+							</table>
+							<!--table for text--->	
+						</td>	
+					</tr>
+					<tr>
+                         <td style="padding: 0 20px 20px;">
+                                <!-- Button : BEGIN -->
+                                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                                    <tr>
+                                        <td class="button-td button-td-primary" style="border-radius: 4px; background: #184E7D;">
+											<a class="button-a button-a-primary" href="#" target="_blank" style="background: #184E7D; border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 15px; text-decoration: none; padding: 13px 49px; color: #ffffff; display: block; border-radius: 4px; font-weight: bold">&nbsp;SHOP NOW</a>
+										</td>
+                                    </tr>
+                                </table>
+                                <!-- Button : END -->
+                            </td>
+                        </tr>
+					<!--text content with a button-->
+					
+					<!--Spacer-->
+					<tr>
+						<td style="font-size: 0; line-height: 0;" height="30">&nbsp;
+							
+						</td>
+					</tr>
+					<!--Spacer-->
+					
+
+					<!--two equal column 1ximg 1xhead 1xtext 1xbutton -->  
+					<tr>
+						<td valign="top" style="padding: 10px; background-color: #ffffff;">
+							<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+								<tr>
+									<!--column 1-->
+									<td class="stack-column-center">
+										<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+											<tr>
+												<td style="padding: 10px; text-align: center;">
+													<img src="https://via.placeholder.com/270x270?text=PRODUCT+1" width="270" height="270" alt="Product 1" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555;"/>
+												</td>
+											</tr>
+											<tr>
+												<td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+													<strong>Product 1</strong>
+												</td>
+											</tr>
+											<tr>
+												<td style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta sagittis ipsum, vitae suscipit ligula adipiscing ut. Nunc ac velit auctor, facilisis nibh et, hendrerit neque.
+												</td>
+											</tr>
+										<tr>
+											<td align="center" style="padding-top: 15px; font-family: arial, sans-serif; font-size: 14px; line-height: 20px !important; color: #000000;">
+												<!--text link-->
+												<a href="#" target="_blank" style="color: #000000; font-size: 18px; font-family: Arial, Helvetica, sans-serif;">BUY NOW</a><br>
+												<!--text link-->
+											</td>
+										</tr>
+										</table>
+									</td>
+									<!--column 1-->
+
+									<!--column 2-->
+									<td class="stack-column-center">
+										<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+											<tr>
+												<td style="padding: 10px; text-align: center;">
+													<img src="https://via.placeholder.com/270x270/ec9ba9/FFFFFF?text=PRODUCT+2" width="270" height="270" alt="Product 2" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555;"/>
+												</td>
+											</tr>
+										<tr>
+											<td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+												<strong>Procduct 2</strong>
+											</td>
+										</tr>
+										<tr>
+											<td style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta sagittis ipsum, vitae suscipit ligula adipiscing ut. Nunc ac velit auctor, facilisis nibh et, hendrerit neque.
+											</td>
+										</tr>
+										<tr>
+											<td align="center" style="padding-top: 15px; font-family: arial, sans-serif; font-size: 14px; line-height: 20px !important; color: #000000;">
+												<!--text link-->
+												<a href="#" target="_blank" style="color: #000000; font-size: 18px; font-family: Arial, Helvetica, sans-serif;">BUY NOW</a><br>
+												<!--text link-->
+											</td>
+										</tr>
+										</table>
+									</td>
+									<!--column 2-->
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!--two equal column 1ximg 1xhead 1xtext 1xbutton -->  
+					
+					
+					<!--two equal column 1ximg 1xhead 1xtext 1xbutton -->  
+					<tr>
+						<td valign="top" style="padding: 10px; background-color: #ffffff;">
+							<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+								<tr>
+									<!--column 1-->
+									<td class="stack-column-center">
+										<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+											<tr>
+												<td style="padding: 10px; text-align: center;">
+													<img src="https://via.placeholder.com/270x270/7299d0/FFFFFF?text=PRODUCT+3" width="270" height="270" alt="Product 3" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555;"/>
+												</td>
+											</tr>
+											<tr>
+												<td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+													<strong>Product 3</strong>
+												</td>
+											</tr>
+											<tr>
+												<td style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta sagittis ipsum, vitae suscipit ligula adipiscing ut. Nunc ac velit auctor, facilisis nibh et, hendrerit neque.
+												</td>
+											</tr>
+										<tr>
+											<td align="center" style="padding-top: 15px; font-family: arial, sans-serif; font-size: 14px; line-height: 20px !important; color: #000000;">
+												<!--text link-->
+												<a href="#" target="_blank" style="color: #000000; font-size: 18px; font-family: Arial, Helvetica, sans-serif;">BUY NOW</a><br>
+												<!--text link-->
+											</td>
+										</tr>
+										</table>
+									</td>
+									<!--column 1-->
+
+									<!--column 2-->
+									<td class="stack-column-center">
+										<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+											<tr>
+												<td style="padding: 10px; text-align: center;">
+													<img src="https://via.placeholder.com/270x270/c2eada/FFFFFF?text=PRODUCT+4" width="270" height="270" alt="Prodcut 4" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: Arial, sans-serif; font-size: 15px; line-height: 15px; color: #555555;"/>
+												</td>
+											</tr>
+										<tr>
+											<td style="font-family: Arial, sans-serif; font-size: 18px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+												<strong>Product 4</strong>
+											</td>
+										</tr>
+										<tr>
+											<td style="font-family: Arial, sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta sagittis ipsum, vitae suscipit ligula adipiscing ut. Nunc ac velit auctor, facilisis nibh et, hendrerit neque.
+											</td>
+										</tr>
+										<tr>
+											<td align="center" style="padding-top: 15px; font-family: arial, sans-serif; font-size: 14px; line-height: 20px !important; color: #000000;">
+												<!--text link-->
+												<a href="#" target="_blank" style="color: #000000; font-size: 18px; font-family: Arial, Helvetica, sans-serif;">BUY NOW</a><br>
+												<!--text link-->
+											</td>
+										</tr>
+										</table>
+									</td>
+									<!--column 2-->
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!--two equal column 1ximg 1xhead 1xtext 1xbutton -->  
+					
+					
+					<!--Spacer-->
+					<tr>
+						<td style="font-size: 0; line-height: 0;" height="60">&nbsp;
+							
+						</td>
+					</tr>
+					<!--Spacer-->
+					
+					<!--footer-->
+					<tr>
+						<td>
+							<!--table base--->
+							<table class="email-container" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr>
+									<td align="center" height="30">
+									<!--logo image-->  
+									<a href="#" target="_blank" style="color: #000000; font-family:Arial, Helvetica, sans-serif; font-size: 14px;">Unsubcribe</a>
+							        <!--logo image-->    
+									</td>		
+								</tr>
+								<tr>
+									<td align="center" height="30" style="color: #000000; font-family:Arial, Helvetica, sans-serif; font-size: 14px;">
+									<!--logo image-->  
+									If you wish to unsubscribe to emails from COMPANY with information about its other products please update your preferences <a href="#" target="_blank" style="color: #000000; font-family:Arial, Helvetica, sans-serif">here</a>
+							        <!--logo image-->    
+									</td>		
+								</tr>
+								<tr>
+									<td align="center" height="20" style="color: #000000; font-family:Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;
+									    
+									</td>		
+								</tr>
+								 <tr>
+									<td align="center" style="font-family:Arial, Helvetica, sans-serif">
+									<a href="https://www.drapersonline.com" target="_blank"><img src="http://via.placeholder.com/200x56?text=LOGO" alt="LOGO HERE" width="200" height="56" border="0" /></a>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" height="30" style="color: #000000; font-family:Arial, Helvetica, sans-serif; font-size: 14px;">
+									<!--logo image-->  
+									Company Address
+							        <!--logo image-->    
+									</td>		
+								</tr>
+							</table>
+							<!--table base--->			
+						</td>
+					</tr>
+					<!--footer-->
+					
+					
+				<!--main table container end-->
+				</table>
+				<!--main table container end-->
+			<!--end of table wrapper-->
+			</td>
+		</tr>
+	</table>
+	<!--end of table wrapper-->
+
+
+
+	
+</body>
+</html>

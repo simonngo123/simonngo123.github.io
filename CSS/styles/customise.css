@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Simon reset and customise style */
+
+/* reset key skill */
+#Keyskill {	
+	font-family: sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 10%;
+	text-transform: uppercase;
+}
+
+/* reset logo backgroud */
+    #logo {
+        background-color: rgba(255,255,255,1.00);
+        text-align: center;
+        margin: 0 auto;
+    }
+
+#textStyle {
+	color:#4C4C4C;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#textStyle li {
+	padding-bottom: 10px;
+}
+
+#textStyle li strong {
+	font-weight: bold;
+}
+
+.brandsImages img:hover {
+	opacity: 0.5;
+	filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+.emailsection2 {
+	float: left;
+	clear: both;
+}
+
+
+.socialNetworkNav img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+	
+	.brandsImages {
+		width: 74px;
+		height: 74px;
+		display: block;
+		margin-right: 33px;
+		margin-left: 33px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		float: left;
+
+	}
+    
+    #logo {
+        background-color: #ffffff;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+	.brandsImages {
+		width: 74px;
+		height: 74px;
+		display: block;
+		margin-right: 33px;
+		margin-left: 33px;
+		float: left;
+
+	}
+    /* reset logo backgroud */
+    #logo {
+        background-color: rgba(255,255,255,1.00);
+        width: 400px;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+.externalResourcesNav a {
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+}
+
+
+
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+	
+	.brandsImages {
+		width: 74px;
+		height: 74px;
+		display: block;
+		margin: 18px;
+		margin-right: 33px;
+		margin-left: 25px;
+		float: left;
+
+	}
+
+	#lineFix {
+		display: none;
+
+	}
+    /* reset logo backgroud */
+    #logo {
+        background-color: rgba(255,255,255,1.00);
+        width: 400px;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
